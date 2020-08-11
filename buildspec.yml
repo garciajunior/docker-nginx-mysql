@@ -11,7 +11,7 @@ phases:
   pre_build:
     commands:
     - echo Construindo as imagens do docker
-    - docker-compose build -d
+   
   build:
     commands:
       - docker_compose up -d
