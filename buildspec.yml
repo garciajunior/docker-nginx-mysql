@@ -14,7 +14,7 @@ phases:
    
   build:
     commands:
-      - docker_compose up -d
+      - docker-compose up -d
   post_build:
     command:
       - echo passei sem erros
