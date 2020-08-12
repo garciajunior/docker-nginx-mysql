@@ -17,4 +17,4 @@ phases:
       - docker-compose up -d
   post_build:
     command:
-      - echo passei sem erros
+      - echo passei sem erros on `date` 
